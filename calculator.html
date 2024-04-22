@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="shortcut icon" href="iconcal.png" type="image/x-icon">
+</head>
+
+<style>
+    
+    button{
+        background-color: #4caf50;
+        width: 700px;
+        color: black;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    div.card {
+  width: 700px;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+  text-align: left;
+  padding: 20px;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ box-shadow: 5px 5px 5px 5px;
+
+}
+input [type="number"]{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: blueviolet;
+    border-radius: 5%;
+
+
+}
+input[type="button"]:hover{
+    background-color: rgb(225, 142, 33);
+    border-radius: 8px;
+    
+}
+input[type="button"]::before{
+    background-color: #4caf50;
+        width: 700px;
+        color: black;
+    
+}
+input[type=number]::selection{
+    background-color: blue;
+}
+*{
+    color: cadetblue;
+}
+label,input[type="number"],input[type="button"]
+{
+padding: 10px;
+}
+</style>
+<h1> Discount Calculator</h1>
+   
+
+<body>
+   <div class="card">
+    
+        <p><label for="">Enter the bill amount and discount in percentage</label><br><br>
+       <label for="">Bill Amount</label><br>
+        <input type="number" name="" id=""  ><br><br>
+       <label for="">Discount Percentage</label><br>
+       <input type="number" name="" id="" ><br><br><br>
+       <input type="button" value="Calculate"><br><br>
+       <label for="">Total Discount Amount</label></p> 
+
+</div>
+</body>
+</html>
